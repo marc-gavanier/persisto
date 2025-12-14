@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Persisto
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<h2 id="about">🪧 About</h2>
 
-## Get started
+**Persisto** is a simple React Native demo app that showcases state persistence using **AsyncStorage**. Its purpose is to demonstrate how to save, load, and clear data in a mobile app while maintaining a clean and reusable developer experience.
 
-1. Install dependencies
+Designed as a lightweight and educational project, Persisto provides a **clear separation between UI components, state management, and persistence logic**, making it easy to reuse and extend in other React Native projects.
 
-   ```bash
-   npm install
-   ```
+## 📑 Table of Contents
 
-2. Start the app
+- 🪧 [About](#about)
+- ✨ [Features](#features)
+- 🎬 [Demo](#demo)
+- 🤗 [Contributing](#contributing) 
+- 📝 [License](#license)
 
-   ```bash
-   npx expo start
-   ```
+<h2 id="features">✨ Features</h2>
 
-In the output, you'll find options to open the app in a
+- **Persistent State** – Demonstrates saving, loading, and clearing input using AsyncStorage. 
+- **Reusable Components** – Lightweight UI primitives like Title, Line, Strong, Button, and Input. 
+- **Clean Developer Experience** – Separation of concerns between UI, state, and storage logic. 
+- **Mobile Friendly** – Fully compatible with Android and iOS using React Native and Expo. 
+- **Theming** – Supports light and dark modes with a consistent design system. 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<h2 id="demo">🎬 Demo</h2>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+You can run the app locally with Expo Go:
 
 ```bash
-npm run reset-project
+git clone git@github.com:marc-gavanier/persisto.git
+cd persisto
+npm install
+npm start
 ```
+Open it in **Expo Go** on Android or iOS to try saving, loading, and clearing state in real time.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<h2 id="contributing">🤗 Contributing</h2>
 
-## Learn more
+Contributions are welcome! Whether you are a developer, designer, or just exploring mobile development, you can help improve this educational demo.
 
-To learn more about developing your project with Expo, look at the following resources:
+<h2 id="license">📝 License</h2>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is open source. See [LICENSE.md](./LICENSE.md) for details.
